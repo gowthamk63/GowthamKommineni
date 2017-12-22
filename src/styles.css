@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+header{
+    background-color: aqua;
+    height: 250px;
+    padding: 20px;
+    margin: -7px;
+}
