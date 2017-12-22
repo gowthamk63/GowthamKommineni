@@ -8,8 +8,7 @@
     "build": "ng build && node server.js",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "9.3.0",
@@ -18,8 +17,6 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
-    "@angular/cli": "1.2.3",
-    "@angular/compiler-cli": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
