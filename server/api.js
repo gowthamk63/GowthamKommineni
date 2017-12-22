@@ -7,7 +7,6 @@ router.get('/', (req, res) => {
   res.send('api works');
 });
 
-
 /* GET project list from mock api */
 router.get('/projects', (req, res) => {
   // Get posts from the mock api
